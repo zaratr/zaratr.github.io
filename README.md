@@ -24,6 +24,8 @@
 
 -this chapter explains what is useful in the new version of html tha twasn't available before. it is more useful now to use these tags and can beautify markup
 
+-javascript portion of the reading describes the usage of object and primitive types. to declare, instanteate , and use keywords to build a stonger code. for example, arrays can be dynamically added onto unless described by coder or client to have alloted memory.
+
 ## ***Reading assignment***
 ## Reading assignment 
 ## Reading assignment
