@@ -47,7 +47,18 @@
   -arithmetic operators, string operators, all use same methods in other languages. pay attention to rvalue and lvalues
 ### Chapter 4 JS
   - using variables and expressions to create statements and sentences. basically combining keywords can initialize a algorithm based on what outcome is wanted. exp 2 + 2 = 4 or obj2 = obj1 (does not deep copy). emphasized points are operators such as logical operators conditionals, switch, loop stopping/starting. while, dowhile, for loops. do not touch on for of or for in.
-## Reading assignment 
+  
+  
+  
+## Reading assignment 3
+  ## HTML /css
+  ###Chapter 3
+  ''' <li> //list item, <ol> ordered list, <ul> unordered list '''
+  ### Chapter 13
+  ## Java
+  ### chapter 2
+  ### chapter 4
+  
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
