@@ -83,7 +83,20 @@
   - loops can be controlled using parameters and a variable to increment. objects can be incremented by objects and there is a certain method to do so.
   - do while loops just increments first then checks for true or false (false triggers the loop to end).
   
-## Reading assignment
+## Reading assignment 4
+  - <a> attribute to use for links. href is placed as the attribute link so that html finds the file
+  - syntax for entering grandchild or any set of parent folder, we use ..; similar to linux terminal command ..
+  - to refer to somewhere in the same page use href to aim where to go to and use html element(tags) attribute id="type here" to show where
+### Chapter 15
+  - By default the box normal flow is set to static ''' position: static '''. however, it is implicit
+  - ''' position: relative; ''' changes the value relative to static position (I think we just use relative to modify the box rather that using static).
+### Chapter 3
+  - Functions are objects in javascript that carry specialized tasks and rules that the client maneuvers uses. the coder is responsible for making those rules.
+  - Declare an array using keyword function followed by variable name and paranthesis for arguments/parameters.
+  - calling a function is using the name and parenthesis 
+  - you may choose to set a return something and multiple return is possible.
+  - functions in js remind me of labda operation which also ties in with functional programming but not quite sure yet (Review later to see if the concepts are the same).
+  - avoid using var!!!
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
