@@ -53,11 +53,35 @@
 ## Reading assignment 3
   ## HTML /css
   ###Chapter 3
-  ''' <li> //list item, <ol> ordered list, <ul> unordered list '''
+   - <li> list item, <ol> ordered list, <ul> unordered list , <dl> dictionary list, <dt> definition term, <dd> definition(has inline definition)
+   - you can chain the li to be a tree with multiple levels of list item by creating ul first within a ul
+  
   ### Chapter 13
+  - boxes are the surrounding area of element. the margin and padding live here
+  - percentages goes by the size of the window
+  - em goes by size of the text. so if the text is too large it would measure the window weirdly.
+  - the preffered method is using px (pixels)
+  - using min-height and max-height avoids clashes in case element contents are too large for the window when shrinking the window
+  - overflow usage helps with content being too large
+  - hidden hides the content and is useful when the content is too large
+  - scroll helps by giving the user the ability to scroll the content f the content is too large.
+  - border, margin and padding are all implicit content. padding refers to the property  of how much space should apear between the content of an element and its border. margine is the gap between boxes.
+  - you can set their sizes to whatever size.\
+  - to modify the style for borders , use border-width: (a Value), border-style:(a Value)
+  - text-align: value helps alignment of each box.
+  - border-radius: value helps design a circle by narrowing the image edges.
+  
+  
   ## Java
   ### chapter 2
+  - arrays can be declared like : let arr = {x, ..., y} ; let arr[2] ; let el.textcontent = anotherarr[2];
+  - arrays are all dynamic
+  - expressions can be done onto variables. 
   ### chapter 4
+  - switch statements are similar to conditionals as far as flow goes. 
+  - truthy and falsy values are useful when being lazy about using boolean. 0 is false but most everthing else evaluates to true.
+  - loops can be controlled using parameters and a variable to increment. objects can be incremented by objects and there is a certain method to do so.
+  - do while loops just increments first then checks for true or false (false triggers the loop to end).
   
 ## Reading assignment
 ## Reading assignment
