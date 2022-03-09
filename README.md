@@ -97,6 +97,13 @@
   - you may choose to set a return something and multiple return is possible.
   - functions in js remind me of labda operation which also ties in with functional programming but not quite sure yet (Review later to see if the concepts are the same).
   - avoid using var!!!
+### 6 reasons for pair programming
+  - I like the idea that we are effiecient but that also ties in with all six reasons (in my opinion)
+  - more engagement is possible when working together.
+  - students can also have more knowledge of code that I don't
+  - becoming more vocal helps me better ask a question and builds skills that will be needed to grab attention or make things more interesting
+  - working with other people helps me become more ready for an interview using practice with a teammate.
+  - companies already use pair programming and is useful in the field.
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
