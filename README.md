@@ -104,7 +104,26 @@
   - becoming more vocal helps me better ask a question and builds skills that will be needed to grab attention or make things more interesting
   - working with other people helps me become more ready for an interview using practice with a teammate.
   - companies already use pair programming and is useful in the field.
-## Reading assignment
+## Reading assignment 5
+  ### Chapert 5
+  - Four steps into adding image: Include image in scope; pic a format; show image with correct size; optimize image for faster render.
+  - Important to keep images organized. 
+  - they are important to set tone of webpage. 
+  -to seetin an image use the tag <img> and to set the style for the image use height and width. these style commands change how big image expands.
+  - align:"value here"; command sets the way the things around the image should flow.
+  - alight: top; sets the surrounding texts to alight to top right of image. midd sets the surrounding text to start at middle of image. vice-versa for bottom command.
+  - Vector images can be really handy! Images lose some of their resolution. some minipulation may be required.
+  - animated gifs can add extra characteristics to a webpage that a photo cannot. ---> a video will motion better than image <---
+  - figcaption tag allows for a text caption to follow an image. 
+                                                                                                                                  
+                                                                                                                                 
+
+                                                                                                                                 
+                                                                                                                                 
+                                                                                                                               
+  ### Chapter 11
+  ### Chapter 12
+  ### JPEG VS PNG VS GIV
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
