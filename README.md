@@ -113,17 +113,24 @@
   - align:"value here"; command sets the way the things around the image should flow.
   - alight: top; sets the surrounding texts to alight to top right of image. midd sets the surrounding text to start at middle of image. vice-versa for bottom command.
   - Vector images can be really handy! Images lose some of their resolution. some minipulation may be required.
-  - animated gifs can add extra characteristics to a webpage that a photo cannot. ---> a video will motion better than image <---
+  - animated gifs can add extra characteristics to a webpage that a photo cannot. a video will motion better than image
   - figcaption tag allows for a text caption to follow an image. 
-                                                                                                                                  
-                                                                                                                                 
-
-                                                                                                                                 
-                                                                                                                                 
+  - Transperency is useful when filtering is needed.                                                                                                                            
                                                                                                                                
   ### Chapter 11
+  - colors can be modified either by text or background.
+  - css3 unlocks saturation and contrast. opacity is also a good commandin css. hue seems to follow rgb less than cmyk.
   ### Chapter 12
+  - serif: strokes to the letters. san-serif: straight ends to letters. monospace: fixed width. weight: refers to boldness. style: italiqu or oblique. Stretch: refers to the text being long for each letter or skinny.
+  - respoinding to user with pseudo classes/elements h1:visited is useful for changing the color change if user clicked on it.a:hover is also useful for responding to the mouse.
+  - pg 292 has really useful attribute selectors for classes. p[class:"value"] selects class that have a class attribue that is called "value"
   ### JPEG VS PNG VS GIV
+  - lossy losses resolution permenantly and irreversible. and lossless is a compression and reconstructable.
+  - jpeg will be that can be compressed at a ratio 1:10 without losing its quality.
+  - png is lossless in that no data is lost when compressed. looks sharper and ideal for text styling on webpage.
+  - gif is lossless image format that uses a LZW compression algorithm. it was used for images but png is superior. now, gif are used for videos.
+  - jpeg is does not support transperency but pnng and gif do. png8 can support index transperency wheras png24 can support alpha channel transperency.
+  - gif is index transparency supportecd.
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
