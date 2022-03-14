@@ -131,7 +131,16 @@
   - gif is lossless image format that uses a LZW compression algorithm. it was used for images but png is superior. now, gif are used for videos.
   - jpeg is does not support transperency but pnng and gif do. png8 can support index transperency wheras png24 can support alpha channel transperency.
   - gif is index transparency supportecd.
-## Reading assignment
+## Reading assignment 5
+  - it's important to break downt he problem into small solvable steps. also make sure you carefully understand the issue before breaking down for solving.
+  - objects have a special place in javascript. the object is treated as a "complex" type. instantiating arrays, functions, classes, or anything with dynamic size or usage of large memory is basically an object. for example, "strings" are objects and a way to check is to use a method. methods are usually tied to collections and all collections(if i'm not mistaken) are objects.
+  - objects literals have key and value where : is the assignment operator.
+  - object literals have method and properties. field types are properties and the method is still field method.
+  - all object properties and methods are dynamic and accessible by client.
+  - Pg 189 has really useful cmmands to access elements.
+  - first and last child are useful when goin g to grab the last element. you may replace them using getElementsByTagName, then setAttribute('class', 'name'). this can be a bit trick but straight forward. look at pg 211
+  - adding to the dom or webbrowser running html/script is possible. usefule commands are document.create Elemtnt() and document.createTextNode()
+  - avoid malicious attackers such as xss (cross-site scripting). they can access all information on site.always scrape trusted sources or not at all.
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
