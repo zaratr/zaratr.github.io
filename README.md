@@ -141,7 +141,11 @@
   - first and last child are useful when goin g to grab the last element. you may replace them using getElementsByTagName, then setAttribute('class', 'name'). this can be a bit trick but straight forward. look at pg 211
   - adding to the dom or webbrowser running html/script is possible. usefule commands are document.create Elemtnt() and document.createTextNode()
   - avoid malicious attackers such as xss (cross-site scripting). they can access all information on site.always scrape trusted sources or not at all.
-## Reading assignment
+## Reading assignment 6
+  - domain modeling reminds me of OOP in that you specify tasks (functions/objects) to carry on tasks. constructors are very useful as they will initialize many objects with same parameters. by using a constructor we also avoid erros.
+  - thead, tbody, tfoot, td, tr, are all useful css table creation. 
+  - data structure: arrays in objects. it can be extremely useful and better for memory and time complexity compared to object in objects (assuming its the same as java).
+  - some global objects are String, Number, Boolean, Date, Math, Regex.
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
