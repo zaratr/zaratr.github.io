@@ -146,7 +146,10 @@
   - thead, tbody, tfoot, td, tr, are all useful css table creation. 
   - data structure: arrays in objects. it can be extremely useful and better for memory and time complexity compared to object in objects (assuming its the same as java).
   - some global objects are String, Number, Boolean, Date, Math, Regex.
-## Reading assignment
+## Reading assignment 8
+  - flexbox layout for one dimensional layouts. layout across a single axis, either horizontally or vertically.. it will also align to elements in children. in the inline direction
+  -grid multi axis grid. basically it wil make multiple items in a grid and you can manipulated it with grid-row, and grid-column.
+  -inlive block flows inline with characteristics of block level element.
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
