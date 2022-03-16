@@ -148,8 +148,10 @@
   - some global objects are String, Number, Boolean, Date, Math, Regex.
 ## Reading assignment 8
   - flexbox layout for one dimensional layouts. layout across a single axis, either horizontally or vertically.. it will also align to elements in children. in the inline direction
-  -grid multi axis grid. basically it wil make multiple items in a grid and you can manipulated it with grid-row, and grid-column.
-  -inlive block flows inline with characteristics of block level element.
+  - grid multi axis grid. basically it wil make multiple items in a grid and you can manipulated it with grid-row, and grid-column.
+  - inlive block flows inline with characteristics of block level element.
+   - By default the box normal flow is set to static ''' position: static '''. however, it is implicit
+  - ''' position: relative; ''' changes the value relative to static position (I think we just use relative to modify the box rather that using static).
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
