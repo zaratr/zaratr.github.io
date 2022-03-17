@@ -167,7 +167,7 @@
   - name describes the content grouping and should be in the same group that all radio button options are on.
   - value describes what should be returned from client.
   - checked refers to what should be checked when webpage loads.
-  - <select value="what is the option"> is used as a drop down menu
+  - ''' <select value="what is the option"> ''' is used as a drop down menu.
   - selected attribute indicates what was selected before.
   - form validation is usefel to user when a password wasnt typed in the form.
   - to do this, create an attribute required="required"
