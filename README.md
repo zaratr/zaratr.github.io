@@ -153,10 +153,41 @@
    - By default the box normal flow is set to static ''' position: static '''. however, it is implicit
   - ''' position: relative; ''' changes the value relative to static position (I think we just use relative to modify the box rather that using static).
 ## Reading assignment 9
-  - span is useful for putting special inline characteristics in the element.
-  - iframe can be useful in a business website. it will have the maps of location
-  - div allows for grouping of sets of elements in html
-  - meta describes information about that web page. it isnt useful for visiting but to the coder.
+  ### Chapter 7 "forms"
+  - forms can be really useful when used. they addsome functionality and interactions to the client.
+  - what makes them useful are adding text into a single line text input. clients can insert their emails or provide some feedback on webpage without leaving the website.
+  - A second useful for are radio buttons/ check boxes/ drop down boxes. these are options that someone can have a simple options.
+  - the process startes by the client typing in their response - next the client input will then be used by a scripting language passed in (usually servers handle this data and sent to the programmer when needed). then their is a response to the client for typing in the information.
+  - inside the scripting language the data is saved into variable passed in.
+  - tag name <form action="where from" method="get"> always have -action- within the tag as an attribute.
+  - method is used to get values from a server just for data collecting. short forms such as boxes.
+  - tag name <input type="text" name="value inserted" size"integer" maxlength="integer that limits client input" receives something from client and gives returns some value somewhere within form to be used later.
+  - if we change input type="password" then the attribute in the element will change the text they write to non seeable input.
+  - radio buttons have <input type="radio" name="grouping" value="text of radio option" checked="checked">
+  - name describes the content grouping and should be in the same group that all radio button options are on.
+  - value describes what should be returned from client.
+  - checked refers to what should be checked when webpage loads.
+  - <select value="what is the option"> is used as a drop down menu
+  - selected attribute indicates what was selected before.
+  - form validation is usefel to user when a password wasnt typed in the form.
+  - to do this, create an attribute required="required"
+  - for dates use attribute type="date"
+  - for search feature on webpage, use attribute type="search" like this <form action="place webpage"><input="search" name="search" placeholder="touser in form"></input></form>
+  ### chapter 14
+  - controlling appearence on lists, tables and forms provide awesome characteristics.
+  - bullet points can be changed to look a bit different using css property list-style-type. we can set this to decimal, decimal-leading-zero, lower-alpha, uppper-alpha, lower-roman, upper-roman.
+  - list-style-image property can be used when you have what you want to be the bullet point instead of whats given (insert image).
+  - list-style-position property indicaatees marker should appear on the inside or outside of the box containing the points.
+  ### chapter 6 java
+  - the power of java when client wants to browse is that there are som many possible keywords to use to provide a interactive web page.
+  - event trigger has three steps for the client to use. in triggering event handling is used. the three steps are select element, specify event, call code.
+  - element node needs to respond. using dom query.
+  - next indicate event response aka "binding" to the dom node.
+  - finally result from clicking the event.
+  
+  - programmers can bind three different ways html event, dom event, level 2 event listener (best way to avoid errors).
+  - we should stay away from html event handlers and use dom level 2 event listener.
+  
   - using event handlers in javascript is like the way we have been doing when writing content onto the dom.
   - element.event = functionName
   - same goes for eventlistener. this is useful when you want interaction with button for example on html
