@@ -152,7 +152,15 @@
   - inlive block flows inline with characteristics of block level element.
    - By default the box normal flow is set to static ''' position: static '''. however, it is implicit
   - ''' position: relative; ''' changes the value relative to static position (I think we just use relative to modify the box rather that using static).
-## Reading assignment
+## Reading assignment 9
+  - span is useful for putting special inline characteristics in the element.
+  - iframe can be useful in a business website. it will have the maps of location
+  - div allows for grouping of sets of elements in html
+  - meta describes information about that web page. it isnt useful for visiting but to the coder.
+  - using event handlers in javascript is like the way we have been doing when writing content onto the dom.
+  - element.event = functionName
+  - same goes for eventlistener. this is useful when you want interaction with button for example on html
+  - element.addeventlistener('enent', functionname, boolean)
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
