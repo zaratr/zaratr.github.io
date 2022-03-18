@@ -192,7 +192,21 @@
   - element.event = functionName
   - same goes for eventlistener. this is useful when you want interaction with button for example on html
   - element.addeventlistener('enent', functionname, boolean)
-## Reading assignment
+## Reading assignment 10
+  ### chapter 10 java error handling
+  - stack is a place in memory where things are firts in first out. 
+  - when execution context and hoisting is done, variables, function and arguments are created. then the they will be assigned. these two phases are prepare, and execute.
+  - the interpreter has access to parent variables. this is called scope.
+  - erors in can be handledd using exception handling. 
+  - usually the code is in the creation/declaration of the object/variable.
+  - so the exception handler goes to that location.
+  - mismatiching unclolsed quotes, missing closing bracket, missing comma in array, malformed property name, are all examples of errors.
+  - typerrors are mismatch objects written on the dom.
+  - try catches are good handlers for errors and could be used to customize the error received.
+  - we try with the keyword try and we catch that error with catch.
+  - finally runs code regardless.
+  - we need finally in order to complete the try/catch block.
+  
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
