@@ -207,7 +207,20 @@
   - finally runs code regardless.
   - we need finally in order to complete the try/catch block.
   
-## Reading assignment
+## Reading assignment 11
+  ### chapter 16 Sizing your images
+  - size of an image can be controlled with width and height property in css.
+  - changes image size can improve webpage optimization.
+  - surprizingly, many sites use the same size images.
+  -- small portrait: 200x 360 px, small landscape: 330 x 210, feature photo(hero): 620 x 400.
+  - by default images are inline.using the display: block property helps.
+  - there are two way to center horizontally with an image: text-align prperty with value center, or you can go to the image itself and add margin.
+  - background images can be set by the entire body or just the box.
+  - using the property background-image w: url("") will set the image
+  - one can repeat with repeat, repeat -x or -y, or no-repeat  but the image can be set to even scroll option llike myspace.
+  - you an set the background-position to be left top/center/bottom or left center/top/bottom and so on.
+  - gradients are also useful with images. it can create a filtering that will slowly transcend.
+  
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
