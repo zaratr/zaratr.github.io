@@ -221,7 +221,34 @@
   - you an set the background-position to be left top/center/bottom or left center/top/bottom and so on.
   - gradients are also useful with images. it can create a filtering that will slowly transcend.
   
-## Reading assignment
+## Reading assignment 12
+  - charts can be really useful and according to our reading, the usage of line charts and bar charts are quite easy.
+  - to do so we would write an element in html that uses canvas with an id name. next in html describe the look of the chart. finaly in java we want an event listener to use a function to insert the  chart into the html.
+  - all charts work this way. they are really useful and can help bring in some fun data.
+  - <canvas id="tutorial" width="150" height="150"></canvas>
+  - https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Basic_usage
+  - ''' <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>Canvas tutorial</title>
+    <script>
+      function draw() {
+        var canvas = document.getElementById('tutorial');
+        if (canvas.getContext) {
+          var ctx = canvas.getContext('2d');
+        }
+      }
+    </script>
+    <style>
+      canvas { border: 1px solid black; }
+    </style>
+  </head>
+  <body onload="draw();">
+    <canvas id="tutorial" width="150" height="150"></canvas>
+  </body>
+</html> '''
+  
 ## Reading assignment
 ## Reading assignment
 ## Reading assignment
