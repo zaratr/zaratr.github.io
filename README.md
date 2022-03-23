@@ -255,5 +255,26 @@
   - in this url http://diveinto.html5doctor.com/storage.html, we can see keywords to access the data from localstorage and can be useful.
   
   
-## Reading assignment
+## Reading assignment 14 a/b
+  ### Google Developer Julia Rozovsky
+  - The article describes Juilia Rozovsky path. starting from a firm, she decided she wanted to be more social and more interesting then her current position. She had tried many fields of study but nothing seemed to stick.
+  - colleges around the world focus on the aspects on team development to keep up with the high volume of work that is in the field.
+  - in her classes, she was involved in a 4 person team but it didn't work out for her as she progressed in her field of study toward her firms.
+  - she then went to group competetions but was not any different from the group of studies in her past. researching and financial analysis seemed to take majority of the work and she ended up sticking with case team then the students at her study at yale.
+  - collaborative activities seem to be the new shift in the workflow in most employee performance. 
+  - analyzing and improving individual workers is best known as employee performance optimization.
+  - google had been doing a social experiment that was far different from others.
+  - google wanted to hire someone who could study people that worked at google and see why some people accelled far more than others, and the project name was called Aristotle. 
+  - in the project, Rozovsky was apart of the project.
+  
+  - she reviewed data on team working papers. It seemed to be a difficult task since the data seemed to be uncorrelated.
+  - group norms are a set of traits that the team develops during the groups lifetime. ethics and unwritten rules seems to be what she struggled to understand.
+  - after a year of studying the data, she wanted to understand shich was norms were more impmortant. however, the uncorrelated data was difficult to figure this out.
+  - Assigning seemed to be the best result among social norms for teams, but the data didn't alwaays prove this true.
+  - "average social sensitivity" - skilled at intuiting how others felt based on tone or nonverbal cues.
+  - teams were more successful if they could understand a persons social cues.
+  - free minded teams seemed to be more successful than serious minded teams
+  - teams with free minded team spoke verbally without any judgment were more advent to risk taking.
+  - Sakaguchi, it made sense that psychological safety and emotional conversations were related.
+  - she now had a vocabulary for explaining to herself what she was feeling and why it was important.
 ## Reading assignment
