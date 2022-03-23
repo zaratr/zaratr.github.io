@@ -249,6 +249,11 @@
   </body>
 </html> '''
   
-## Reading assignment
+## Reading assignment 13
+  - HTML5 was a solution to solve multiple 3rd party plug-ins for creating webpages.
+  - We may access local storage on webpage using javascript functionality localstorage.
+  - in this url http://diveinto.html5doctor.com/storage.html, we can see keywords to access the data from localstorage and can be useful.
+  
+  
 ## Reading assignment
 ## Reading assignment
