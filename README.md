@@ -277,4 +277,35 @@
   - teams with free minded team spoke verbally without any judgment were more advent to risk taking.
   - Sakaguchi, it made sense that psychological safety and emotional conversations were related.
   - she now had a vocabulary for explaining to herself what she was feeling and why it was important.
+  
+ ### css3 transforms
+  - two dimensional and three demonsional
+  - tranform property is simple and has inlicuding and value. the paranthesis has a specific amount to scale.
+  - elements may be distorted in 2d and 3d
+  - rotate provides the ability to rotate an element 0 - 360 (degrees)
+  - syntax: transform: rotate(degrees)
+   - you can scale with transform: scale()
+  - scaleX, scaleY will scale individually
+  - translate works like relative positioning.
+  - translate moves the object without scaling/rotating
+  -transform: translateX:(Numpx) or translateY will do the trick
+  - transform: skew() will scale the image by some scalar amount.
+  - transitioning is useful to change the shape of element https://learn.shayhowe.com/advanced-html-css/transitions-animations/
+  
+  ''' 
+  .box {
+    background: #2db34a;
+    border-radius: 6px
+    transition-property: background, border-radius;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  .box:hover {
+    background: #ff7b29;
+    border-radius: 50%;
+  }
+  
+  '''
+  - https://www.webdesignerdepot.com/2014/05/8-simple-css3-transitions-that-will-wow-your-users shows fancy transitions
+ 
 ## Reading assignment
