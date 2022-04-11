@@ -13,3 +13,4 @@
 
 
 ## References
+[Medium: Component lifecycles Events](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)

@@ -19,3 +19,54 @@ need to manage local state
 props are short for properties
 they are passed in as arguments and the components are using the props in a aggregated relationship.
 flow is unidirectional and is passed in from and used from call of another component.
+
+## Reading 02
+### State and Props
+
+1. Based off the diagram, what happens first, the 'render' or the 'componentDidMount'?
+    ****
+   1. **During the mounting process, render is called before componentDidMount.**
+   2. React lets you create components as functions or classes.
+   3. mounting, updating, and unmounting are key states of component lifecycle.
+   4.  Mounting phase - an instance of a component is being created and inserted into the DOM.
+   5.  Updating - it is state changes or  rerendered is done in the oreder: 
+       1.  static getStateFromProps, shouldCOmponentUPdate, render,
+       2.  getSnapshotBeforeUPdate, componentDidUPdate, UNSAFE_componentWillUpdate, UNSAFE_compnentWillReceiveProps
+   6. Unmounting - component is being removed.
+   7. 
+   ****
+2. What is the very first thing to happen in the lifecycle of React?
+   ****
+   1. **Constructor gets called first during the creation of component. further, super gets called if at subcomponent.**
+   2. (needs further evaluation) according to the source reading, the constructor is very similar to how classes are built as far as scope for constructors. So, if a there is a inheritence relationship, then the child is responsible for calling the parent constructor using the keyword super(x,x,x,freestuff, freestuff, freestuff). Note: props will be passed and have access to props: super(props)
+   3.  this.state is a can be assigned here in constructor. Note: Field Declarations available?
+   4.  avoid this.setState() in constructor. this will ignore all updates and cause unwanted side effects.
+   5.  static (mutable) getDerivedStateFromProps() is used in case state relies on chages in props over time.
+
+    ****
+3. What does componentDidMount do?
+   ****
+   1. **loads network request or initialize the DOM**
+   2. this method gets invoked immediately after component is mounted
+   3. loads network request or intitialize DOM
+   4. useful for usage of subsriptions and must componentWillUnmount() any subscriptions when unsubscribing.
+   **** 
+
+4.  what types of things can you pass in the props? 
+    ****
+    1. **Props can be treated as arguments/parameters that will want to pass information.**
+    2. is this similar to props or state?
+
+    ****
+
+
+5.  what is the gig difference between props and state?
+    ****
+    1.  props are handled outside of component. aggregation relationship
+    2.  states are in scope inside the component. composition relationship
+
+    ****
+6.  when do we re-render our application?
+    ****
+    1.  **changing state but not for props. state will re- render the application.**
+    ****
