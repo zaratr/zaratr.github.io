@@ -70,3 +70,20 @@ flow is unidirectional and is passed in from and used from call of another compo
     ****
     1.  **changing state but not for props. state will re- render the application.**
     ****
+
+## Reading 03
+### Passing Functions as Props
+****
+### Arrays.prototype.map() notes in ReactJS
+**** 
+1. map() is a prototype of Arrays class (Arrays.prototype.map()). thus, the return is returning an array.
+2. inside the body of a tag, if we use {someName} then we can display the contents in someName onto the screen.
+3. each list item needs to have a unique **key**. 
+4.  Keys help react identify which items have changed. keys should be given to the elements inside the array .
+****
+Spread Operator ...
+****
+1. Spread Syntax can be used when all elements from an object or array need to be included in a list. very similar to english elipse ... where i can say 1, 2, 3, ..., 10. we can assume that the elipse says there are integers that should be included. 
+2. pass in arguments to a function, pass to array literals, and pass object to copy another object.
+3. first, we can do something like newArr = [...arrOneToTen, 11,12] where arrOneToTen will assign all elements into the newArr. second example, if a function x(...aArrayParam, y) we can assign parameters using spread operator.
+4. to clone a object all we do is: cloneObj = {...obj} and all the key:values paris will be assigned to cloneObj
