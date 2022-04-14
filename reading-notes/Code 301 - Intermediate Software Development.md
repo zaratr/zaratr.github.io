@@ -95,5 +95,7 @@ Spread Operator ...
 - What is a Controlled Component?
   - setState will make state mutable within their own state based on user input with input, textarea, select, kind of tags.
 - we should always wait for the user response when they submit the for
-- event.target.value
-- 
+- target with multiple inputs from user by adding attribute to each element. handler function will choose what to do based on event.target.
+### Ternary Operator
+- a boolean value or truthy, falsy is needed. so then ? will do x?if:else
+- x===y ? console.log(true) : console.log(false)
