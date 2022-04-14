@@ -87,3 +87,13 @@ Spread Operator ...
 2. pass in arguments to a function, pass to array literals, and pass object to copy another object.
 3. first, we can do something like newArr = [...arrOneToTen, 11,12] where arrOneToTen will assign all elements into the newArr. second example, if a function x(...aArrayParam, y) we can assign parameters using spread operator.
 4. to clone a object all we do is: cloneObj = {...obj} and all the key:values paris will be assigned to cloneObj
+
+
+
+## Reading 04
+### React and Forms
+- What is a Controlled Component?
+  - setState will make state mutable within their own state based on user input with input, textarea, select, kind of tags.
+- we should always wait for the user response when they submit the for
+- event.target.value
+- 
