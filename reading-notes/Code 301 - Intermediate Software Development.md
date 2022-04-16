@@ -99,3 +99,26 @@ Spread Operator ...
 ### Ternary Operator
 - a boolean value or truthy, falsy is needed. so then ? will do x?if:else
 - x===y ? console.log(true) : console.log(false)
+
+****
+## Reading 05
+### Putting it All Together
+****
+1.  what is the **single responsibility principle** and how does it apply to components?
+    - coding components into a focused reason.
+2.  What does it mean to build a ‘static’ version of your application?
+    - static is building the UI but has no interactivity.   
+3.  Once you have a static application, what do you need to add?
+    - library, FilterProductTable, dont use state.   
+4.  What are the three questions you can ask to determine if something is state? 
+    -   Is it passed in from a parent via props? If so, it probably isn’t state.
+    -   Does it remain unchanged over time? If so, it probably isn’t state.
+    -   Can you compute it based on any other state or props in your component? If so, it isn’t state.
+5.  How can you identify where state needs to live?
+    -   **FilterableProductTable**
+    -   ProductTable needs to filter the product list based on state and SearchBar needs to display the search text and checked state.
+    -   The common owner component is FilterableProductTable.
+    -   It conceptually makes sense for the filter text and checked value to live in FilterableProductTable
+
+****
+
