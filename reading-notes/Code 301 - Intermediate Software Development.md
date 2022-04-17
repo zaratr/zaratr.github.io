@@ -122,3 +122,31 @@ Spread Operator ...
 
 ****
 
+## Reading 06
+### NODE.js
+### An Introduction to Node.js 
+1. What is node.js?
+   -  On Stock Overflow explains that Node.js is a event-base, non-blocking asynchronous I/O runtime that uses Google's v8 Javascript engine and libuv library.
+2. In your own words, what is Chrome’s V8 JavaScript Engine?
+   - it is a open source javascript engine that runs on applications such as chromium, opera, etc. 
+   - Further, a strong feture is that node.js compiles on computer or native machine code.
+3. What does it mean that node is a JavaScript runtime?
+   - uses javascript to compile and run similar to javascript 
+4. What is npm?
+   -  package manager that includes Regristry, npm CLI and useful tools within Javascript.
+5. What version of node are you running on your machine?
+   -  v14.05
+6. What command would you type to install a library/package called ‘jshint’?
+   -  npm install -g jshint
+7. What is node used for?
+   -  Used to build and run for modern javascript applications.
+
+
+### 6 Reasons for Pair Programming
+
+1. What are the 6 reasons for pair programming?
+    - efficiency, Engaged Coollaboration, Learning from Fellows, Social Skills, Job Interview Rediness, Work Environment.
+2. In your experience, which of these reasons have you found most beneficial?
+   - Social Skills seems to be getting better for me out the 6 as far as explaining the code and how to work in a team of coders. 
+3. How does pair programming work?
+   - While learning to code or solve a solution as a team, use Listening, Speaking, Reading, Writing skills to come up with a outcome.   

@@ -13,7 +13,12 @@
 
 
 ## References
+
+
+### Code301 sources
 [Medium: Component lifecycles Events](https://medium.com/@joshuablankenshipnola/react-component-lifecycle-events-cb77e670a093)
 
-
 [developer.mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+[Sitepoint on NODE.JS reading 06](https://www.sitepoint.com/an-introduction-to-node-js)
+[Reasons for pairing reading 06](https://www.codefellows.org/blog/6-reasons-for-pair-programming/)
