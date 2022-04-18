@@ -150,3 +150,35 @@ Spread Operator ...
    - Social Skills seems to be getting better for me out the 6 as far as explaining the code and how to work in a team of coders. 
 3. How does pair programming work?
    - While learning to code or solve a solution as a team, use Listening, Speaking, Reading, Writing skills to come up with a outcome.   
+
+
+## Reading 07
+### Rest
+1.  Who is Roy Fielding?
+    1.  help make first web servers
+    2.  build research explaining web works the way it does
+2.  Why don’t the techniques that we use today work well when we need to be able to talk to all of the machines in the world?
+    1.  because industry had a different goal then Fielding about talking to computers. So, small groups are able to talk to each other.
+3.  What is the HTTP protocol that Fielding and his friends created?
+    1.  Http is a action at the browser and receives sends data to local server from web server.
+4.  What does a GET do?
+    1.  requests data from web server
+5.  What does a POST do?
+    1.  add to a system, it would do a POST
+6.  What does PUT do?
+    1.  Replaces to a system with what is already there
+7.  What does PATCH do?
+    1.  similar to put only partial update.
+#### Geocoding API
+Did you get your API key?
+yes
+
+### Weather Bit API
+Did you get your API key?
+yep
+#### Yelp API Docs
+Did you get your API key?
+yeah
+#### The Movie DB API Docs
+Did you get your API key?
+yessum
