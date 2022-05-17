@@ -3,19 +3,18 @@
 ## Relational DataBase
 - From practicing the Database, I can see that R is similar to SQL Bolt in that grabbing information. The comparison is similar but not the same, but for my understanding, I see the resemblence and can be useful to understand how things are ordered in a database and its limitations from knowing a little bit about R.
 - Prep Work For SQL below images:
-[img1](public%5CprepImg%5Cprepsql1.JPG)
-[img2](public%5CprepImg%5Cprepsql2.JPG)
-[img3](public%5CprepImg%5Cprepsql3.JPG)
-[img4](public%5CprepImg%5Cprepsql4.JPG)
-[img5](public%5CprepImg%5Cprepsql5.JPG)
-[img6](public%5CprepImg%5Cprepsql6.JPG)
-[img7](public%5CprepImg%5Cprepsql13.JPG)
-[img8](public%5CprepImg%5Cprepsql14.JPG)
-[img9](public%5CprepImg%5Cprepsql15.JPG)
-[img10](public%5CprepImg%5Cprepsql16.JPG)
-[img11](public%5CprepImg%5Cprepsql17.JPG)
-[img12](public%5CprepImg%5Cprepsql18.JPG)
-
+[img1](public/prepImg/prepsql1.JPG)
+[img2](public/prepImg/prepsql2.JPG)
+[img3](public/prepImg/prepsql3.JPG)
+[img4](public/prepImg/prepsql4.JPG)
+[img5](public/prepImg/prepsql5.JPG)
+[img6](public/prepImg/prepsql6.JPG)
+[img7](public/prepImg/prepsql13.JPG)
+[img8](public/prepImg/prepsql14.JPG)
+[img9](public/prepImg/prepsql15.JPG)
+[img10](public/prepImg/prepsql16.JPG)
+[img11](public/prepImg/prepsql17.JPG)
+[img12](public/prepImg/prepsql18.JPG)
 
 
 
