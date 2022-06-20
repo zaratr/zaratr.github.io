@@ -32,3 +32,35 @@
 ****
 ## Things I want to know about:
 ****
+
+![](public/AndroidDrawing.jpg)
+
+## Reading Notes: Application Fundamentals (Software Development Kit)
+  - SDK is a collection of development tools to develop Android application that is combined in one package that compiles the code along with Android app bundle.
+  - Android apps can be written using kotlin, java, and C++. In other words, uses JVM to generate a class file. 
+  ![](public/jvm2.JPG)
+  - C++ may remind me of Linker set up, source files (main.cpp) -> translators -> relocatable object files -> linker(libraries and symbols) -> executable. 
+  - However, the process of JVM is takes over for Android development. Instead of compiled language format of linking process, the way Java Architecture takes a different approach. this approach is creating virtual machines isolated with their own operating system on without using local machines operating system.   
+  ![](public/jvm1.JPG)
+  - here the JVM architecture is not that much more complicated. first java creates a source code (.java) then bytcode as a (.class). in a nutshell thats it!
+  - where it gets a bit more sophistacated is in the class loading process.
+    - load process allocates the memory using libraries predefined.
+    - linking takes care of dependencies, symbols, etc
+    - intialization takes static and interfaces and handles them differently as they arent immediately implemented.
+    ![](public/jvm3.JPG)
+  - thus, the process is the same for all languages in Android Development apps. whether c++ or kotlin. with the power of JVM one can pull kotlin and convert it to bytecode, then reconvert it to java, or Kotlin! all because JVM handles them all the languages the same way. 
+
+- Android is a operating system - stack based linux kernel(acts as a interface between hardware and software). it is a open source environment. some features are touchscreen and smart phone capabilities. 
+- thus security is handled differently from other operating system. the goal is to be flexible to all users and developers. things like connectivity to all lan, bluetooth devices, gyroscopes.
+- linux system is in each app which is a different user in each kit
+- Virtual machin runs in isolation from other apps (very similar to jvm)
+
+### App components
+- four types of app components: 
+- Activities:
+  - entry point for interacting with the user.such as reading emails, sorting emails, etc for user
+- Services: entry point for running app in the background. such as music running continuously and closing app.
+- Content Providers: allows sharing of an application data with another application. can be a file or entire SQLite database.
+- Broadcast receivers: allows an application to respond to a bradcast intent. broadcast is set to low battery, then the broadcast receiver will run a code that will notify user that it is on low battery for charging. 
+- all four are asynchronous  messages called "intent".
+  
