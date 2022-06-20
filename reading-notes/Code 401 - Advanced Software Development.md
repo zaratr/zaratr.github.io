@@ -62,5 +62,35 @@
 - Services: entry point for running app in the background. such as music running continuously and closing app.
 - Content Providers: allows sharing of an application data with another application. can be a file or entire SQLite database.
 - Broadcast receivers: allows an application to respond to a bradcast intent. broadcast is set to low battery, then the broadcast receiver will run a code that will notify user that it is on low battery for charging. 
-- all four are asynchronous  messages called "intent".
+
+### Activating components
+- all three (activities, services, and broadcast receivers) are asynchronous  messages called "intent".
+- Intent which defines a message  to activate either a specific component or a pecific type of component. 
+- it is an object that activates in a activity or service such as display information or send information.
+- content providers handle exchanging information differently. they use Content Resolvers.
+- startActivity() or startActivityForResult() does the activation in activity
+- you can initiate a broadcast by passing intent to methods such as sendBroadcast(), sendorderedbroadcast(), or sendstickybroadcast().
+
+
+### Manifest
+- contains files in which it describes informtation about your application, such as build tools, package name, application metadata, registered activities, intent filters, permissions, and more.
+
+`<?xml version="1.0" encoding="utf-8"?>
+<manifest ... >
+    <application android:icon="@drawable/app_icon.png" ... >
+        <activity android:name="com.example.project.ExampleActivity"
+                  android:label="@string/example_label" ... >
+        </activity>
+        ...
+    </application>
+</manifest>`
+
+### Android template architecture
+- manifest handles infromation about application.
+- java folder contains java files which can be things like mainactivity class. this is where the main activities should derive from.
+- resource folder contains all useful things for application to use
+  - drawable has things like images, gifs, etc
+  - layout is the template in which our application will look like (front end kind of thing)
+  - values are static variables that we can use.
+
   
