@@ -93,4 +93,22 @@
   - layout is the template in which our application will look like (front end kind of thing)
   - values are static variables that we can use.
 
-  
+ ### Shared Preferences API
+ - SharedPreferences allows key value pairs to be used from a file. 
+ - to store and retrieve, use getSharedPreferences() from a Context. use case if is you are using multiple preference files identified by name. specify with the first parameter.
+ - getPreferences() usage for an Activity. to use for one shared preference file of the activity.
+ - For example, the following code accesses the shared preferences file that's identified by the resource string R.string.preference_file_key and opens it using the private mode so the file is accessible by only your app:
+
+  ```
+  Context context = getActivity();
+
+  SharedPreferences sharedPref = context.getSharedPreferences(getString(R.string.preference_file_key),
+  Context.MODE_PRIVATE);
+
+  //use case for an Activity for one preference file
+  SharedPreferences sharedPref = getActivity().getPreferences(Context.MODE_PRIVATE);
+
+  ````
+
+- naming convention for shared prefernce files should be done as follows `com.example.myapp.PREFERENCE_FILE_KEY`
+
