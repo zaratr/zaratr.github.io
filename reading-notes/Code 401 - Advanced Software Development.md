@@ -132,3 +132,8 @@
 <a href="https://developer.android.com/studio/test/espresso-test-recorder">Ridiculous superpower: the Espresso Test Recorder</a>
 
 <a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack" _target="blank">Android Tasks and the Back Stack</a>
+***
+
+## RecyclerView for displaying lists of data
+
+<a href="https://developer.android.com/guide/topics/ui/layout/recyclerview#java" _target="blank">RecyclerView for displaying lists of data</a>
