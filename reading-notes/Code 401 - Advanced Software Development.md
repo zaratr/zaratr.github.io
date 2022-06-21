@@ -125,3 +125,10 @@
   * crash when rotating screen
 - 
  
+[Android Shared preferences](https://developer.android.com/training/data-storage/shared-preferences)
+
+<a href="https://developer.android.com/training/testing/espresso" _target="blank">Espresso Testing (read Overview, Basics, and Recipes, plus any others that look interesting)</a>
+
+<a href="https://developer.android.com/studio/test/espresso-test-recorder">Ridiculous superpower: the Espresso Test Recorder</a>
+
+<a href="https://developer.android.com/guide/components/activities/tasks-and-back-stack" _target="blank">Android Tasks and the Back Stack</a>
