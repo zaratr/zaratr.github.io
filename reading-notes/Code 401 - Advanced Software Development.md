@@ -93,6 +93,7 @@
   - layout is the template in which our application will look like (front end kind of thing)
   - values are static variables that we can use.
 
+
  ### Shared Preferences API
  - SharedPreferences allows key value pairs to be used from a file. 
  - to store and retrieve, use getSharedPreferences() from a Context. use case if is you are using multiple preference files identified by name. specify with the first parameter.
@@ -110,5 +111,17 @@
 
   ````
 
-- naming convention for shared prefernce files should be done as follows `com.example.myapp.PREFERENCE_FILE_KEY`
+- naming convention for shared prefernce files should be done as follows `com.example.myapp.PREFERENCE_FILE_KEY` 
 
+***
+
+## Activity Lifecycle
+
+- Creating lifecycle methods for users to stop and play are useful features to have.
+- if used correctly, lifecycles can avoid buggy instances.
+  * Crashing when a phone call is made or switches to another app while on current app.
+  * Consuming system resources when not using the app
+  * losing the users progress if returned later on
+  * crash when rotating screen
+- 
+ 
