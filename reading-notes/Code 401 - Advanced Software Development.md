@@ -137,3 +137,82 @@
 ## RecyclerView for displaying lists of data
 
 <a href="https://developer.android.com/guide/topics/ui/layout/recyclerview#java" _target="blank">RecyclerView for displaying lists of data</a>
+
+
+
+## Hashing 
+
+- Hashing can be implemented a few ways to avoid collision.
+  - LogFile style of implementation. using `unorderd list`
+    - add to end - O(1)
+    - delete Search and delete O(n)
+    - disadvantage not the fastest
+  - Compression Maps
+    1. Division
+    - converts a integer `[negative infinity , infinity]`
+    - so division will never exceed `[0, N -1]` where N is array size.
+    - compressionMap(key) = y mod N
+    - collision is minimized but the disadvantage is that it still does collision quite frequently.
+      - reason being is that we receive strings(keys) -> (101, 202, 303),
+      - suppose N was multiplied by prime number and N -1(never exceed array size)
+      - then y mod N will be 101 mod 101 is 0, 201 mod 101 is 0, 301 mod 101 is 0
+      - but, something exist at 101. thus collision occurs
+    2. Multiply add divide
+      - to do this method the algo will look like `cmp(y) = ((ay+b) % p) % N` and N is a Prime integer, p is a prime integer < N, a, b are non zero constants
+      - thus, if strings is (101, 202, 303) and N is 101,
+        - then 101: 303 + 3 % 5 = 306 % 5 = 1, then 1 % 101 = 1
+        - further 202: 202 x 3 + 3 = 609 % 5 = 4 = 4% 101 = 4
+        - finally, 303: 909 + 3 = 912 % 5 = 2 = 2 % 101 = 2
+        - All keys are different and prevents collison
+    3. The best instance of Compression Maps is Multiply, Add, divide.
+  - Seperate Chaining
+    - uses a linked list data structure to store same hashed value in bucket array.
+    - disadvantage is O(N) for searching in linked list but O(1) for insertion
+  - Linear Probing
+    - collision handling is placing values in seperate circular table set
+    - when there are duplicate hash keys, it will place duplicates to the next available index.
+    - disadvantage of linear probing is clustering. clustering is accumulation of elements in consecutive cells.
+    - Which means that linear probing is O(N)
+  - Quadratic Probing
+    - similar to Linear Probing but differnece is in insertion where (hashing(key) + i**2) mod N
+    - this will place key at i**2 index.
+    - disadvantage, we cant access some elements in bucket array because it is being used from jumping quadratically.
+  - Bloom Filter
+    - uses two hashings x mod N and (2x +3 ) mode N.
+    - disadvantage, false positives because a number can be present even though it was never inserted.
+  - Double Hashing
+    - hash1(k ) + j hash2(k) where hash1 = k mod N and hash2 = k mod N/2
+    - uses a loop to iterate j and fills at j
+    - similar to quadratic probing
+  - Rehashing
+    - load factor is entries/buckets in bucket list which  entries must be less than buckets. load factor must be less than 1
+    - thus, the bucket array is resized almost double at times. this gaurantees that there is no collision
+    - but at a cost of space complexity.
+  - Bucket Array - Array of N elements. thus, An element with key and value pair will be stored at Array of N elements.
+    - adding will be O(1)
+    - deleting will be O(1)
+    - disadvantage keys have to be integers and know what keys before hand. need to know the N amount of keys present.
+  - HashTables -
+    - Hash Function
+    - bucket array
+    - removes the assumption that keys have to be integers by turning all into an integer and map it to a value into a unique hashcode.
+    - thus, the hashing returns a integer between 0 and N-1
+    - Hashing method will be O(1)
+  - after understanding few types of hashing implementations.
+  - HASHING - to discuss what is a good hashing method
+    - minimize collision where key1 != key2
+    - thus hashing(key1) == hashing(key2)
+    - hashing(key) should return value data. for example hashing(key) return unique value for hashcode
+    - Memory address
+      - hashing(key) returns memory address
+      - disadvantage, not uniform.
+    - Integer cast
+      - int a = (int) T data
+      - disadvantage, loss of data accuracy for data structure T data. for example T is a double.
+      - thus, collision happens
+    - Component Sum
+      - partitioning bits into two components. for example 32 bits num2, 32 bit num2 and a 64 bit key will be passed to num1 and num2. then hashcode = num1 + num2
+      - disadvantage, collisions occur because for example pots, spot, tops, spot, have the same strings characters in different orders.
+    - Polynomial Accumulation (Horner's Rule)
+      - different segments at 32 bits of our string. then do Ascii value of character x index of element where p is storeed + ...
+      - then key will be unique. `for(int i = n -1; i >= 0; --i){sum = (sum*a) + arr[i]}`
