@@ -2,7 +2,12 @@
 - These notes are from CodeFellows. You can click on the links below that will take you to each section.
 
 # Table Of Contents
+## Oracle JavaDoc
+- [Oracle JavaDoc Set up (if not using intellij)](https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html)
+- [Oracle Java Documentation](https://docs.oracle.com/en/java/javase/19/docs/specs/javadoc/doc-comment-spec.html)
+ 
 ## [VS Code Shortcuts](https://github.com/zaratr/zaratr.github.io/blob/main/vscodecheetsheet.png)
+
 ## [Markdown guide](https://github.com/zaratr/zaratr.github.io/blob/main/Ultra-mate-Markdown.md)
 ## [Reading Notes](https://github.com/zaratr/zaratr.github.io/tree/main/reading-notes)
 
